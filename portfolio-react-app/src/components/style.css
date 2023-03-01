@@ -1,0 +1,73 @@
+.front-page{
+    display: flex;
+    align-items: center;
+    font-size: 600%;
+    min-height: 100vh;
+    background-color: rgb(116, 32, 141);
+}
+header{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 200%;
+    display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    justify-content: space-around;
+    background-color: rgb(116, 32, 141);
+}
+nav{
+    display: flex;
+}
+header h1:hover {
+    background: #ddd;
+    color: rgb(102, 28, 171); 
+  }
+.nav-elements{
+    border: solid 10px peru;
+    display: flex;
+}
+.nav-item{
+    margin-left: 40px;
+}
+.left-image{
+    padding-right: 20px;
+}
+.right-image{
+    padding-left: 10px;
+}
+.about-me-title{
+    display: flex;
+    justify-content: space-around;
+    font-size: 150%;
+    background-color: rgb(115, 211, 112);
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.about-me-content{
+    display: flex;
+    background-color: rgb(82, 191, 129);
+    padding-top: 20px;
+    padding-left: 210px;
+    padding-right: 210px;
+}
+
+.portfolio-title{
+    display: flex;
+    justify-content: space-around;
+    font-size: 150%;
+    background-color: rgb(68, 181, 234);
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.portfolio-content{
+    display: flex;
+    background-color: rgb(82, 169, 191);
+    padding-top: 20px;
+    padding-left: 210px;
+    padding-bottom: 20px;
+    padding-right: 210px;
+}
+
