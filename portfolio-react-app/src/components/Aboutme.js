@@ -12,7 +12,7 @@ function Aboutme() {
       <div className="about-me-content">
         <img
           className="left-image"
-          src="/20230220_132403.jpg"
+          src=""
           alt="Image of Husaam"
           height="600"
         />
